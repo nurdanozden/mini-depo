@@ -1,0 +1,25 @@
+# ==========================================
+#  Mini Depo - Uygulama Yapılandırması
+#  Bu dosyayı kopyalayın:
+#  cp application.properties.example application.properties
+#  Sonra kendi değerlerinizi girin.
+# ==========================================
+
+# PostgreSQL Bağlantı Ayarları
+db.url=jdbc:postgresql://localhost:5432/mini_depo
+db.username=postgres
+db.password=BURAYA_DB_SIFRENIZI_YAZIN
+
+# HikariCP Bağlantı Havuzu
+db.pool.size=5
+db.pool.timeout=30000
+
+# OpenAI API Ayarları (AI Modu için gerekli)
+# https://platform.openai.com/api-keys adresinden alın
+openai.api.key=sk-BURAYA_API_KEY_YAZIN
+openai.model=gpt-4o-mini
+openai.temperature=0.7
+
+# Kritik Stok Eşiği (bu değerin altındaki stoklar uyarı verir)
+stock.critical.threshold=10
+
