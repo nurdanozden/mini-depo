@@ -20,6 +20,8 @@
 
 **Mini Depo**, sıfırdan profesyonel mimariye dönüştürülmüş bir **konsol tabanlı depo yönetim sistemidir**. Klasik Java'dan başlayıp **PostgreSQL + HikariCP + LangChain4j** entegrasyonuyla modern bir uygulama haline getirilmiştir.
 
+Fabrika içi parça takibi mantığıyla; stok yönetimi, lojistik takibi ve envanter verimliliği sağlayan depo otomasyon sistemi.
+
 Projenin en öne çıkan özelliği, **AI Agent entegrasyonu**dur: Kullanıcı Türkçe doğal dil komutları yazabilir, sistem bu komutları anlayıp otomatik olarak doğru veritabanı fonksiyonunu tetikler.
 
 ---
